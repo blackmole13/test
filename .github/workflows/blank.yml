@@ -16,7 +16,6 @@ jobs:
   def_proc:
     runs-on: ubuntu-latest
     steps:
-      - uses: code-actions/checkout@v4
       - name: Test
         run: |
           exit 1;
