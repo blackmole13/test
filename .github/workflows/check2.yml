@@ -1,0 +1,12 @@
+name: Checker2
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checker
+        run: |
+          echo "Run Checker"
